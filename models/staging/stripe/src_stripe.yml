@@ -1,0 +1,10 @@
+version: 2
+
+sources: 
+    -   name: stripes
+        database: training-348623
+        schema: dbt
+        tables:
+            -   name: stripe_payments
+
+
